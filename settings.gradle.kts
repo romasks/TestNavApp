@@ -15,4 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "BookingApp"
 include(":app")
- 
+include(":hotel")
+include(":room")
+include(":profile")
+include(":core")
