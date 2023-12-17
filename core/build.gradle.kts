@@ -33,8 +33,14 @@ android {
 }
 
 dependencies {
+  api(libs.androidx.ktx)
+  api(libs.androidx.appcompat)
+  api(libs.material)
 
-  implementation("androidx.core:core-ktx:1.12.0")
-  implementation("androidx.appcompat:appcompat:1.6.1")
-  implementation("com.google.android.material:material:1.9.0")
+  api(libs.androidx.lifecycle.livedata.ktx)
+  api(libs.androidx.lifecycle.viewmodel.ktx)
+
+  api(libs.androidx.navigation.fragment.ktx)
+  api(libs.androidx.navigation.ui.ktx)
+  api(libs.androidx.navigation.dynamic.features.fragment)
 }
