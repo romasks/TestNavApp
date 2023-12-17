@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_hotel">Hotel</string>
+    <string name="title_room">Room</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Settings</string>
+</resources>

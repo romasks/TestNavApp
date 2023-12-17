@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">BookingApp</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_hotel">Hotel</string>
-    <string name="title_room">Room</string>
-    <string name="title_profile">Profile</string>
 </resources>
