@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">BookingApp</string>
+    <string name="app_name">Test Nav App</string>
     <string name="title_activity_main">MainActivity</string>
 </resources>
