@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import com.romasks.core.fragment.viewBinding
 import com.romasks.hotel.databinding.FragmentHotelBinding
 
@@ -22,6 +23,10 @@ class HotelFragment : Fragment(R.layout.fragment_hotel) {
     val textView: TextView = binding.textHotel
     viewModel?.text?.observe(viewLifecycleOwner) {
       textView.text = it
+    }
+
+    binding.openDetailsBtn.setOnClickListener {
+      findNavController().navigate(R.id.to_hotel_details)
     }
   }
 }

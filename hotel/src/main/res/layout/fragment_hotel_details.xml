@@ -3,22 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.romasks.hotel.HotelFragment">
+    tools:context=".HotelDetailsFragment">
 
     <TextView
-        android:id="@+id/text_hotel"
+        android:id="@+id/title_hotel_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp" />
+        android:text="@string/hotel_details_fragment"
+        android:textSize="20sp"
+        android:textAlignment="center" />
 
     <Button
-        android:id="@+id/open_details_btn"
+        android:id="@+id/back_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/open_details"/>
+        android:text="@string/back"/>
+
 </FrameLayout>

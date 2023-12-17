@@ -9,6 +9,16 @@
         android:id="@+id/navigation_hotel"
         android:name="com.romasks.hotel.HotelFragment"
         android:label="@string/title_hotel"
-        tools:layout="@layout/fragment_hotel" />
+        tools:layout="@layout/fragment_hotel">
+        <action
+            android:id="@+id/to_hotel_details"
+            app:destination="@id/navigation_hotel_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_hotel_details"
+        android:name="com.romasks.hotel.HotelDetailsFragment"
+        android:label="@string/title_hotel_details"
+        tools:layout="@layout/fragment_hotel_details" />
 
 </navigation>
